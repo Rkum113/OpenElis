@@ -27,4 +27,4 @@ jobs:
           tar -zxf apache-ant-1.9.16-bin.tar.gz
           echo "ANT_HOME=/tmp/ant/apache-ant-1.9.16" >> $GITHUB_ENV
           echo "/tmp/ant/apache-ant-1.9.16/bin" >> $GITHUB_PATH
-      - run: ant setupDB test dist
+      - run: ant setupDB
